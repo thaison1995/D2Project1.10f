@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Arena.h" />
+    <ClInclude Include="..\Buff.h" />
+    <ClInclude Include="..\Config.h" />
+    <ClInclude Include="..\D2Constants.h" />
+    <ClInclude Include="..\D2DataTables.h" />
+    <ClInclude Include="..\D2Math.h" />
+    <ClInclude Include="..\D2PacketClient.h" />
+    <ClInclude Include="..\D2PacketDef.h" />
+    <ClInclude Include="..\D2PacketServer.h" />
+    <ClInclude Include="..\D2Patch.h" />
+    <ClInclude Include="..\D2PatchConst.h" />
+    <ClInclude Include="..\D2Ptrs.h" />
+    <ClInclude Include="..\D2Structs.h" />
+    <ClInclude Include="..\D2Vars.h" />
+    <ClInclude Include="..\Damage.h" />
+    <ClInclude Include="..\DLLmain.h" />
+    <ClInclude Include="..\ExBox.h" />
+    <ClInclude Include="..\ExButton.h" />
+    <ClInclude Include="..\ExCellFile.h" />
+    <ClInclude Include="..\ExControl.h" />
+    <ClInclude Include="..\ExImage.h" />
+    <ClInclude Include="..\ExRectangle.h" />
+    <ClInclude Include="..\ExScrollBar.h" />
+    <ClInclude Include="..\ExTextBox.h" />
+    <ClInclude Include="..\ExWindow.h" />
+    <ClInclude Include="..\LRoster.h" />
+    <ClInclude Include="..\NewTXT.h" />
+    <ClInclude Include="..\Offset.h" />
+    <ClInclude Include="..\Orb.h" />
+    <ClInclude Include="..\PartyExp.h" />
+    <ClInclude Include="..\PartyUI.h" />
+    <ClInclude Include="..\TemplateIncludes.h" />
+    <ClInclude Include="..\UnitNode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Arena.cpp" />
+    <ClCompile Include="..\Buff.cpp" />
+    <ClCompile Include="..\Config.cpp" />
+    <ClCompile Include="..\Damage.cpp" />
+    <ClCompile Include="..\DLLmain.cpp" />
+    <ClCompile Include="..\ExBox.cpp" />
+    <ClCompile Include="..\ExButton.cpp" />
+    <ClCompile Include="..\ExCellFile.cpp" />
+    <ClCompile Include="..\ExControl.cpp" />
+    <ClCompile Include="..\ExImage.cpp" />
+    <ClCompile Include="..\ExRectangle.cpp" />
+    <ClCompile Include="..\ExScrollBar.cpp" />
+    <ClCompile Include="..\ExTextBox.cpp" />
+    <ClCompile Include="..\ExWindow.cpp" />
+    <ClCompile Include="..\LRoster.cpp" />
+    <ClCompile Include="..\Main.cpp" />
+    <ClCompile Include="..\D2Math.cpp" />
+    <ClCompile Include="..\NewTXT.cpp" />
+    <ClCompile Include="..\Offset.cpp" />
+    <ClCompile Include="..\Orb.cpp" />
+    <ClCompile Include="..\PartyExp.cpp" />
+    <ClCompile Include="..\PartyUI.cpp" />
+    <ClCompile Include="..\UnitNode.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B7848D7C-A05C-4DED-A363-B9555FF791A1}</ProjectGuid>
+    <RootNamespace>BBGE</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>Project 1.10</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\..\..\Diablo II v1.13c Lite By Sever Arena\MODS\Eastern-Sun-Rises</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D2FC</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D2Template</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\..\Diablo II v1.13c Lite By Sever Arena\MODS\Data 1.10f</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;BBGE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;BBGE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <CallingConvention>FastCall</CallingConvention>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
